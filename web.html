@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <title>All photos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="header__menu">
+        <ul>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Podcasts</a></li>
+        </ul>
+      </div>
+      <div class="header__search">
+        <input type="text" placeholder="  Search for anything...">
+      </div>
+      <div class="header__user">
+        <select onchange="changeLanguage(this)">
+          <option value="en" selected>English</option>
+          <option value="uk">Ukrainian</option>
+        </select>
+        <button id="signin">Sign In</button>
+      </div>
+    </header>
+    <main>
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="#" class="active">All photos</a></li>
+            <li><a href="#">Selfies</a></li>
+            <li><a href="#">Recent</a></li>
+            <li><a href="#">Deleted</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section>
+       <div class="button-wrapper">
+        <div class="text-wrapper">
+         <h1>All photos</h1>
+        </div>
+        <button class="button-h1">Newest</button>
+        <button class="button-h2">Latest</button>
+       </div>
+        <div id="gallery">
+          <div id="gallery">
+            <figure>
+             <div class="gallery">
+              <div class="gallery__row">
+               <div class="gallery__item">
+                <img src="https://wallpaperaccess.com/full/1222596.jpg">
+                <h1>Space art</h1>
+                <button class="button-orange">Save to collection</button>
+                <button class="button-white">Share</button>
+               </div>  
+                <div class="gallery__item">
+                 <img src="https://wallpaperaccess.com/full/1222611.jpg">
+                 <h1>Planet</h1>
+                 <button class="button-orange">Save to collection</button>
+                 <button class="button-white">Share</button>
+                </div>  
+                 <div class="gallery__item">
+                 <img src="https://wallpaperaccess.com/full/1222684.jpg">
+                 <h1>Space tree</h1>
+                 <button class="button-orange">Save to collection</button>
+                 <button class="button-white">Share</button>
+                </div>  
+                 <div class="gallery__item">
+                 <img src="https://images.wallpaperscraft.ru/image/single/gory_les_zvezdnoe_nebo_201686_1920x1080.jpg">
+                 <h1>Mountains</h1>
+                 <button class="button-orange">Save to collection</button>
+                 <button class="button-white">Share</button>
+                </div>  
+              </div>
+             </div>        
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
